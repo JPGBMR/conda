@@ -8,7 +8,8 @@ Init & set up a conda enviroment.
   - [create](#create)
   - [activate](#activate)
   - [install](#install)
-- [Download Libraries](#downlowad-libraries)
+- [Download Libraries](#download-libraries)
+- [Summary](#summary)
 - [Contributing](#contributing)
 - [License](#license)
 
