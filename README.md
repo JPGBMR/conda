@@ -69,8 +69,7 @@ Explain how to use the project. Provide examples and usage scenarios.
 
 Describe the structure of your project's folders and files.
 
-
-# conda project Initialization commands
+## conda project Initialization commands
 
 Welcome to my Python project! This repository is a boilerplate for creating an app using anaconda
 
