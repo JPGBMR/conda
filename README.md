@@ -1,89 +1,63 @@
 # Conda env set up
-Init & set up a conda env.
+Init & set up a conda enviroment.
 
 ## Table of Contents:
 
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Folder Structure](#folder-structure)
-- [Dependencies](#dependencies)
+- [Setting virtual enviroment](#setting-virtual-enviroment)
+  - [create](#create)
+  - [activate](#activate)
+  - [install](#install)
+- [Download Libraries](#downlowad-libraries)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
 
-List any prerequisites that the user needs to have installed before setting up the project.
+Install anaconda: https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html
 
-## Getting Started
+## Setting virtual enviroment
 
-Provide instructions on how to set up and run the project locally.
+How to set up and run the project locally.
 
-### Installation
+### Create
+1. Change 'test-env' :
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/your-project.git
-    ```
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-project
-    ```
-3. Create a virtual environment (optional but recommended):
-
-    ```bash
-    python -m venv venv
-    ```
-4. Activate the virtual environment:
-
-    - For Windows:
-
-        ```bash
-        venv\Scripts\activate
-        ```
-
-    - For macOS/Linux:
-
-        ```bash
-        source venv/bin/activate
-        ```
-5. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-
-
-## Folder Structure
-
-Ideally it should looc something like:
 ```bash
-project-root/
-│
-├── src/
-│ ├── main.py
-│ ├── ...
-│
-├── tests/
-│ ├── test_main.py
-│ ├── ...
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+conda deactivate
+conda create --name test-env
 ```
-## conda project Initialization commands
 
-Welcome to a boilerplate for creating an app using anaconda
+### Activate
 
-## Installation
+2. Activate the enviroment previously created:
 
-To run this project, make sure you have Python installed. You can install the required dependencies using:
+```bash
+    conda activate test-env
+```
+    
+### Install
+
+3. Install desired version of python
+
+    ```bash
+    conda install Python=3.9
+    ```
+    
+## Download Libraries
+
+Download the necessary libraries
+```bash
+conda install pyautogui, numpy, PIL
+```
+Update (optional)
+```bash
+conda update
+```
+
+## Summary
+
+To summarize we may start a conda enviroment and set it up using th elines below:
 
 ```bash
 conda deactivate
