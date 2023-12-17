@@ -1,13 +1,13 @@
 # Conda env set up
-
 Init & set up a conda env.
 
-## Table of Contents
+## Table of Contents:
 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Folder Structure](#folder-structure)
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
@@ -28,19 +28,16 @@ Provide instructions on how to set up and run the project locally.
     ```bash
     git clone https://github.com/your-username/your-project.git
     ```
-
 2. Navigate to the project directory:
 
     ```bash
     cd your-project
     ```
-
 3. Create a virtual environment (optional but recommended):
 
     ```bash
     python -m venv venv
     ```
-
 4. Activate the virtual environment:
 
     - For Windows:
@@ -54,24 +51,34 @@ Provide instructions on how to set up and run the project locally.
         ```bash
         source venv/bin/activate
         ```
-
 5. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-### Usage
 
-Explain how to use the project. Provide examples and usage scenarios.
 
 ## Folder Structure
 
-Describe the structure of your project's folders and files.
+Ideally it should looc something lik:
+project-root/
+│
+├── src/
+│ ├── main.py
+│ ├── ...
+│
+├── tests/
+│ ├── test_main.py
+│ ├── ...
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## conda project Initialization commands
 
-Welcome to my Python project! This repository is a boilerplate for creating an app using anaconda
+Welcome to a boilerplate for creating an app using anaconda
 
 ## Installation
 
@@ -84,11 +91,6 @@ conda activate test-env
 conda install pyautogui, Python=3.9
 conda update
 ```
-
-
-## Dependencies
-
-List and explain any external libraries or packages your project depends on.
 
 ## Contributing
 
@@ -103,5 +105,3 @@ Provide information on how others can contribute to your project.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
