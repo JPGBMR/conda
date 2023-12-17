@@ -1,6 +1,6 @@
-# Conda & miniconda init
+# Conda env set up
 
-How to init & set up an initial conda env.
+Init & set up a conda env.
 
 ## Table of Contents
 
@@ -68,4 +68,20 @@ Explain how to use the project. Provide examples and usage scenarios.
 ## Folder Structure
 
 Describe the structure of your project's folders and files.
+
+
+# conda project Initialization commands
+
+Welcome to my Python project! This repository is a boilerplate for creating an app using anaconda
+
+## Installation
+
+To run this project, make sure you have Python installed. You can install the required dependencies using:
+
+```bash
+conda deactivate
+conda create --name test-env
+conda activate test-env
+conda install pyautogui, Python=3.9
+conda update
 
