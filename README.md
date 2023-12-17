@@ -83,4 +83,25 @@ conda create --name test-env
 conda activate test-env
 conda install pyautogui, Python=3.9
 conda update
+```
+
+
+## Dependencies
+
+List and explain any external libraries or packages your project depends on.
+
+## Contributing
+
+Provide information on how others can contribute to your project.
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Make your changes and commit them: `git commit -m 'Add feature'`.
+4. Push to the branch: `git push origin feature-branch`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
