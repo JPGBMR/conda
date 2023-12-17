@@ -61,7 +61,8 @@ Provide instructions on how to set up and run the project locally.
 
 ## Folder Structure
 
-Ideally it should looc something lik:
+Ideally it should looc something like:
+```bash
 project-root/
 │
 ├── src/
@@ -75,7 +76,7 @@ project-root/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ## conda project Initialization commands
 
 Welcome to a boilerplate for creating an app using anaconda
