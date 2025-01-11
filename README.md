@@ -1,83 +1,29 @@
-# Conda env set up
-Init & set up a conda enviroment.
+# Environment Setup: Conda & Pip
+Comprehensive guide to setting up Python virtual environments using **Conda** and **Pip**.
+
+---
 
 ## Table of Contents:
+1. [Prerequisites](#prerequisites)
+2. [Conda Environment Setup](#conda-environment-setup)
+   - [Create](#create-conda)
+   - [Activate](#activate-conda)
+   - [Install](#install-conda)
+3. [Pip Environment Setup](#pip-environment-setup)
+   - [Create](#create-pip)
+   - [Activate](#activate-pip)
+   - [Install](#install-pip)
+4. [Summary](#summary)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-- [Prerequisites](#prerequisites)
-- [Setting virtual enviroment](#setting-virtual-enviroment)
-  - [create](#create)
-  - [activate](#activate)
-  - [install](#install)
-- [Download Libraries](#download-libraries)
-- [Summary](#summary)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
 ## Prerequisites
+Before setting up an environment, ensure you have the necessary tools installed:
 
-Install anaconda: https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html
-
-## Setting virtual enviroment
-
-How to set up and run the project locally.
-
-### Create
-1. Change 'test-env' :
-
-```bash
-conda deactivate
-conda create --name test-env
-```
-
-### Activate
-
-2. Activate the enviroment previously created:
-
-```bash
-    conda activate test-env
-```
-    
-### Install
-
-3. Install desired version of python
-
-    ```bash
-    conda install Python=3.9
-    ```
-    
-## Download Libraries
-
-Download the necessary libraries
-```bash
-conda install pyautogui, numpy, PIL
-```
-Update (optional)
-```bash
-conda update
-```
-
-## Summary
-
-To summarize we may start a conda enviroment and set it up using th elines below:
-
-```bash
-conda deactivate
-conda create --name test-env
-conda activate test-env
-conda install pyautogui, Python=3.9
-conda update
-```
-
-## Contributing
-
-Provide information on how others can contribute to your project.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add feature'`.
-4. Push to the branch: `git push origin feature-branch`.
-5. Submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+### Conda:
+- Install [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) or [Anaconda](https://www.anaconda.com/).
+- Verify installation:
+  ```bash
+  conda --version
