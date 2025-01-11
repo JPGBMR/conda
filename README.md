@@ -30,6 +30,8 @@ Before setting up an environment, ensure you have the necessary tools installed:
   conda deactivate
   conda create --name test-env
   conda activate test-env
+  
+  ```bash
   conda install python=3.9 pyautogui numpy pillow
   conda update --all
   
