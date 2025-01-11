@@ -27,3 +27,22 @@ Before setting up an environment, ensure you have the necessary tools installed:
 - Verify installation:
   ```bash
   conda --version
+
+### conda & pip activate
+```bash
+conda deactivate
+conda create --name test-env
+conda activate test-env
+conda install python=3.9 pyautogui numpy pillow
+conda update --all
+
+```bash
+python -m venv test-env
+# Activate the virtual environment:
+# Windows: test-env\Scripts\activate
+# Mac/Linux: source test-env/bin/activate
+pip install --upgrade pip
+pip install pyautogui numpy pillow
+pip install --upgrade [library_name]  # (Optional for updates)
+
+
